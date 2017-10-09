@@ -1,1 +1,1 @@
-Official repository of neotip.io website
+Official repository of [NeoTip](https://neotip.io/) website
