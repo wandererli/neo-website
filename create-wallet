@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107687459-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-107687459-1');
+  </script>
+
+  <meta charset="UTF-8" />
+  <title>NEOTIP: Incentivizing quality content on the Internet through tips</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css?id=1" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <script type='text/javascript' src='js/jquery.particleground.js'></script>
+  <script type='text/javascript' src='js/main.js'></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
+  
+</head>
+
+<body>
+  <!-- Header Navigation -->
+  <div id="header">
+    <div class="alignleft">
+      <a href="/get-started"><img src="img/previous.png" height="30px"></a>
+    </div>
+    <div class="alignright">
+      <a href="/questions"><img src="img/question.png" height="30px"></a>
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+  <!-- End Header Navigation -->
+
+  <div id="particles" class="get-started"></div>
+  <div class="section intro">
+    <div class="container">
+      <center>
+      <H1 class="animated fadeInDown">Creating a Personal Wallet</H1>
+      </center>
+    </div>
+  </div>
+  <div class="section content">
+    <div class="container">
+      <p>There are multiple ways to create and maintain your personal wallet. You can see all of the officially available options on the <a href="https://neo.org/download" target="_blank">NEO Smart Economy website</a>. While there are multiple ways to create a wallet, we will be going through Neon's City of Zion wallet. For this tutorial, we will use City of Zion's NEON wallet, because it can be used by Windows, Mac and Linux users. <p>DISCLAIMER: we are not affiliated with the awesome people at CoZ or NEO. Sidenote, we're pretty awesome ourselves.
+      <hr>
+      <br><H4>1. Download CoZ's NEON Wallet:</H4>
+      <p>First, you'll need to download a copy of the wallet application. You can view the releases here: <a href="https://github.com/CityOfZion/neon-wallet/releases" target="_blank">https://github.com/CityOfZion/neon-wallet/releases</a>. Or you can download them directly from this link, although we can't guarantee these are the latest releases:
+      <li><a href="https://github.com/CityOfZion/neon-wallet/releases/download/0.0.5/Mac.Neon-0.0.5.dmg">Mac Users (version 0.0.5)</a> - Released September 6, 2017</li>
+      <p><li><a href="https://github.com/CityOfZion/neon-wallet/releases/download/0.0.5/Windows.Neon.Setup.0.0.5.exe">Windows Users (version 0.0.5)</a> - Released September 6, 2017</li>
+      <hr>
+      <br><H4>2. Click Create a New Wallet</H4>
+      <img src="gif/neon-homescreen.gif">
+      <hr>
+      <br><h4>3. Type in a passphrase</h4>
+      <p>REMEMBER your passphrase. It is best to use a passphrase you can commit to memory.
+      <img src="img/neon-passphrase.jpg">
+      <hr>
+      <br><H4>4. Save the information</H4>
+      <p>Keep the info somewhere safe. If you choose SAVE, then you can access your saved wallet from the homepage later.
+      <img src="img/neon-walletinfo.jpg">
+      <hr>
+      <br><h4>5. Log in to confirm access to your wallet.</h4>
+      <p>If you saved your wallet in Step 4, you can log in by clicking "Login using a saved wallet." On the next screen, just enter the passphrase you used from step 3.
+      <p>If you didn't save your wallet info in step for, you can still log in to your wallet with your encrypted key or private key. On the next screen, just type in the encrypted key or private key, depending on which you decided to log in with.
+      <p>Didn't save your wallet and/or forgot to copy down your encrypted key or private key? Don't worry, you can just create a new wallet (go back to Step 2). This time, remember to keep that information because you will need it every time you want to access your wallet.
+      <img src="gif/neon-login.gif">
+      <hr>
+      <br><h4>Congratulations! Now associate your wallet with your NeoTip Account!</h4>
+      <p>Copy your public key address. Then send a <a href="<a href="https://www.reddit.com/message/compose/?to=neotip" target="_blank">Direct Message to /u/neotip</a> with the subject line "associate PUBLIC-KEY-ADDRESS" where PUBLIC-KEY-ADDRESS would be replaced with your public key address. 
+      <p>For example, the wallet we just created has the address ASqgLjfkMAnuJKrMr5fZc5S81Kg2LVRXG2, so our subject line would be "associate ASqgLjfkMAnuJKrMr5fZc5S81Kg2LVRXG2"
+      <p>It is important for you to associate your personal wallet address as soon as possible, because that will tell us where to send all your Gas when you want to withdraw your earnings.
+      <p><a href="https://www.reddit.com/message/compose/?to=neotip" target="_blank" class="btn">Associate Your Wallet Now</a>
+    </div>
+  </div>
+
+</body>
+</html>

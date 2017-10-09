@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107687459-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-107687459-1');
+  </script>
+
+  <meta charset="UTF-8" />
+  <title>NEOTIP: Incentivizing quality content on the Internet through tips</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css?id=1" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <script type='text/javascript' src='js/jquery.particleground.js'></script>
+  <script type='text/javascript' src='js/main.js'></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
+  
+</head>
+
+<body>
+  <!-- Header Navigation -->
+  <div id="header">
+    <div class="alignleft">
+      <a href="/"><img src="img/previous.png" height="30px"></a>
+    </div>
+    <div class="alignright">
+      <a href="/questions"><img src="img/question.png" height="30px"></a>
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+  <!-- End Header Navigation -->
+
+  <!-- Body -->
+  <div id="particles" class="get-started"></div>
+  <div class="section intro">
+    <div class="container">
+      <center>
+      <H1 class="animated fadeInDown">Get Started</H1>
+      <H4 class="animated fadeInUp">VERSION 0.0.1 - ALPHA</H4>
+      </center>
+    </div>
+  </div>
+  <div class="section content">
+    <div class="container">
+      <p>DISCLAIMER: During alpha testing, we are not liable for any lost NEO or Gas. All testing in alpha will be done on the Test Net, so no real NEO or Gas will be lost. DO NOT transfer any funds from the MAIN NET to your alpha test wallet.
+      <hr>
+      <H2>Get Started on Reddit</H2>
+      <p>For alpha testing, NeoTip will only be available on Reddit. In order to use NeoTip on Reddit, all you have to do is link it to your account.
+        <hr>
+      <H4>1. Sign up for an Account through Reddit</H4>
+      <p>To do this, <a href="https://www.reddit.com/message/compose/?to=neotip" target="_blank">send a direct message to /u/neotip</a> with:
+        <li> Subject: create account </li>
+        <li> Message: <i>It can be anything you want to say</i></li>
+        <li> Confirm that you're not a robot</li><p>
+      <p><p><a href="https://www.reddit.com/message/compose/?to=neotip" target="_blank" class="btn">Send a Direct Message to NeoTip</a>
+      <p>In a few seconds, you should receive a new message in your Inbox from NeoTip. That message will have your wallet address information. 
+      <center><img src="https://media.giphy.com/media/l378vwWzbArpLc5Ms/giphy.gif"></center>
+      <hr>
+      <H4>2. Fund Your Wallet</H4>
+      <p>Send Gas to that wallet address to fund it. Once NeoTip has confirmed that the transaction has been received, it will send a direct message to you, confirming that the amount has been deposited to your account. FOR ALPHA TESTING, DO NOT TRANSFER ANY FUNDS FROM YOUR MAIN NET ACCOUNT TO THE WALLET, AND WE CANNOT BE HELD RESPONSIBLE FOR ANY LOST NEO OR GAS. ALL ALPHA TESTING IS CONDUCTED ON THE TEST NET.
+      <hr>
+      <H4>3. Start Tipping</H4>
+      <p>To tip, all you have to do is type in "/u/neotip AMOUNT" with AMOUNT being the amount you want to tip. For example, if you want to send 1 NeoTip (1 NeoTip = 1 Gas), just type in "/u/neotip 1"  in reply to a comment or a post. The tip will automatically be transferred to the account you wrote in response to. 
+      <p>For example, if you type "/u/neotip 1" as a response to a post, the original poster (OP) will receive the tip. On the other hand, if you thought someone's comment within the post (i.e., a post reply) was funny or helpful, you can send a tip to him or her by replying "/u/neotip 1" to his or her comment.
+      <center><img src="https://media.giphy.com/media/3ohhwh2oW1Ll15FXCU/giphy.gif"></center>
+      <hr>
+      <H4>4. Send to Any Reddit User</H4>
+      <p>You don't have to worry about whether or not a user has created a NeoTip account. As soon as you send over the tip, we'll create a wallet for that user. Then he or she can start withdrawing from it at any time. 
+      <hr>
+      <H4>5. Check Balance and Other Account Info</H4>
+      <p>After creating your account, you can check your account balance by <a href="https://www.reddit.com/message/compose/?to=neotip" target="_blank">sending a direct message to /u/NeoTip</a> with:
+        <li> Subject: account info </li>
+        <li> Message: <i>It can be anything you want to say</i></li>
+        <li>Confirm that you're not a robot</li><p>
+      <p>NeoBot will respond with your account info, including: your wallet address, where NeoBot will send your withdraws, the amount of Gas you have, and how much it converts to in USD.
+      <hr>
+      <H4>6. Withdrawing</H4>
+      <p>Remember, NeoTip uses Gas for currency, and 1 NeoTip = 1 Gas. 
+      <p>In order to withdraw, you need to first have a personal wallet. If you don't already have one, you can create one by yourself or follow our tutorial:
+      <p><a href="/create-wallet" class="btn">Learn to Create a NEO Wallet</a>
+      <p>Copy your personal wallet address (public key). Then send a <a href="<a href="https://www.reddit.com/message/compose/?to=neotip" target="_blank">Direct Message to /u/neotip</a> with the subject line "associate PUBLIC-KEY-ADDRESS" where PUBLIC-KEY-ADDRESS would be replaced with your public key address. 
+      <p>For example, the wallet we just created has the address ASqgLjfkMAnuJKrMr5fZc5S81Kg2LVRXG2, so our subject line would be "associate ASqgLjfkMAnuJKrMr5fZc5S81Kg2LVRXG2"
+      <p>It is important for you to associate your personal wallet address as soon as possible, because that will tell us where to send all your Gas when you want to withdraw your earnings.
+      <p><a href="https://www.reddit.com/message/compose/?to=neotip" target="_blank" class="btn">Associate Your Wallet Now</a>
+    </div>
+  </div>
+
+</body>
+</html>

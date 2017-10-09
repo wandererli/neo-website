@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107687459-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-107687459-1');
+  </script>
+
+  <meta charset="UTF-8" />
+  <title>NEOTIP: Incentivizing quality content on the Internet through tips</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css?id=1" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <script type='text/javascript' src='js/jquery.particleground.js'></script>
+  <script type='text/javascript' src='js/main.js'></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
+  
+</head>
+
+<body>
+  <!-- Header Navigation -->
+  <div id="header">
+    <div class="alignleft">
+      <a href="/"><img src="img/previous.png" height="30px"></a>
+    </div>
+    <div class="alignright">
+      <a href="/questions"><img src="img/question.png" height="30px"></a>
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+  <!-- End Header Navigation -->
+
+  <!-- Body -->
+  <div id="particles" class="get-started"></div>
+  <div class="section intro">
+    <div class="container">
+      <center>
+      <H1 class="animated fadeInDown">About NeoTip</H1>
+      </center>
+    </div>
+  </div>
+  <div class="section content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <p>Likes, retweets, and other forms of social media support come with no commitment other than a swipe or click. The lack of commitment unintentionally drives a plethora of noisy content that spams user experience. Fake news and sensationalism is liked and shared without verification, harmful practices are encouraged for views and thumbs-ups, and important current events and global concerns are overshadowed by glamorous scandals of celebrities, politicians, or celebrity politicians.
+      <p>NeoTip was created to address this issue and to bring out the best of the Internet. By shifting to a more tangible and committed endorsement, we can reshape the habits that have been forged by empty likes and views, and work towards encouraging better content.
+      <p>This is accomplished by allowing users to submit cryptocurrency tips to others through NeoTip. Due to the financial implications of a tip, the tipper is more conscious about where he or she shares a NeoTip. Since content creators receive more incentive from receiving a NeoTip than an unvalued like or view, they feel encouraged to create better quality content for a more conscious audience. 
+      <hr>
+
+      <p><p>
+      <H2>The Finer Details</H2>
+      <p>You don't have to know any of this to use NeoTip. But it'll be helpful in your understanding of how it works.
+      <h4>1. NeoTip and Gas</h4>
+      <p>1 Gas = 1 NeoTip. Although both Gas and NEO are tradable for other currencies on exchanges, within the the NEO Smart Economy, we decided to work with Gas instead of NEO. This is solely due to Gas allowing transactions of decimal amounts and NEO allowing only whole numbers.  
+      <p>This gives the user more flexibility in sending a NeoTip. At time of writing, the value of Gas is approximately $32 USD and NEO is $37 USD. Since users can only send whole numbers in NEO, at minimum, a NeoTip transaction would be $37. We recognize that not all users want to send a $37 tip. Gas would allow a user to send 0.1 Gas or 0.01 Gas, which is $3.20 or $0.32, respectively.
+      <h4>2. Minimum NeoTip Amount</h4>
+      <p>The minimum amount of a NeoTip is 0.001. Any NeoTip you initiate for less than 0.001 (for example, 0.0009) will count as 0 and no NeoTip will be sent. We round down. So if you try something like 0.0019, it will be registered as 0.001 -- but don't worry, you don't lose the 0.0009, it's still in your account, it just never left with the other 0.001 NeoTip.
+      <h4>3. Send to Anyone</h4>
+      <p>Users don't have to have activated accounts on NeoTip to receive NeoTips. On Reddit, if you send a NeoTip to a user who doesn't have an active account, we will deposit your transaction into a newly generated wallet reserved for that user. We will notify that user of the NeoTip, and he or she can retrieve it at any time.
+      <h4>4. Current Features</h4>
+      <h5>v0.0.1 - Reddit Alpha</h5>
+      <li>Reddit functionality: Create account via direct message to /u/neotip</li>
+      <li>Reddit functionality: See account information</li>
+      <li>Reddit functionality: Send tip via post or comment response</li>
+      <li>Reddit functionality: Withdraw funds to personal wallet via direct message to /u/neotip</li>
+      <li>Reddit functionality: View help via direct message to /u/neotip</li>
+      <li>Initial frontend website</li>
+        </div>
+        <div class="col-md-3">
+          <H4>Getting Started</H4>
+          <p><a href="/get-started" class="btn">Signup for Alpha</a>
+          <p><a href="/create-wallet" class="btn">Wallet Tutorial</a>
+          <H4>Get in Touch</H4>
+          <p><a href="mailto:hello@neotip.io" class="btn">hello@neotip.io</a>
+          <p><a href="https://steemit.com/@neotip" class="btn">Steemit Blog</a>
+          <p><a href="https://twitter.com/neotipofficial" class="btn">Twitter</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

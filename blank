@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107687459-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-107687459-1');
+  </script>
+
+  <meta charset="UTF-8" />
+  <title>NEOTIP: Incentivizing quality content on the Internet through tips</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <script type='text/javascript' src='js/jquery.particleground.js'></script>
+  <script type='text/javascript' src='js/main.js'></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
+  
+</head>
+
+
+<body>
+  <div id="header">
+    <center>
+    <a href="https://www.neotip.io/get-started" class="btn">Be an Alpha Tester</a>
+  </center>
+  </div>
+
+<div id="particles" class="get-started"></div>
+
+<script type="text/javascript">
+    new Typed('#typed2', {
+    strings: ['Send a tip when <strong>you see good content</strong>', 'Send a tip when <strong>you get an awesome answer</strong>', 'Send a tip when <strong>you want to show support</strong>', 'Alpha testing begins in October 2017.'],
+    typeSpeed: 1,
+    backSpeed: 10,
+    smartBackspace: true, // this is a default
+    loop: true,
+    backDelay: 2000
+  });
+</script>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+</body>
+</html>

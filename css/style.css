@@ -1,0 +1,272 @@
+/*
+CSS Reset
+http://meyerweb.com/eric/tools/css/reset/
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* particleground demo */
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  line-height: 1.3;
+  -webkit-font-smoothing: antialiased;
+}
+
+#particles {
+  background: #000;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+#particles.get-started {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: -2;
+}
+
+#intro {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  padding: 0 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.intro {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.content {
+  background-color: rgba(255,255,255,0.9);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #000;
+}
+.title {
+  padding-top: 100px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 5em;
+  font-weight: 700;
+  letter-spacing: .3em;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+  margin: 0 0 15px 0;
+}
+h3 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+  margin: 0 0 30px 0;
+}
+h3.underline::after {
+  content: '';
+  width: 80px;
+  display: block;
+  background: #fff;
+  height: 10px;
+  margin: 30px auto;
+  line-height: 1.1;
+}
+h4 {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+  margin: 0 0 15px 0;
+}
+h5 {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+  margin: 0 0 15px 0;
+}
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  -webkit-transition: all 0.4s;
+     -moz-transition: all 0.4s;
+       -o-transition: all 0.4s;
+          transition: all 0.4s;
+}
+
+p {
+  padding-bottom: 20px;
+  line-height: 2em;
+}
+.btn:hover {
+  color: #96de00;
+  border-color: #6da200;
+}
+
+#header {
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: rgba(0,0,0,1);
+}
+
+#footer {
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: rgba(0,0,0,1);
+}
+
+.alignleft {
+  float: left;
+  padding-top:5px;
+}
+.alignright {
+  float: right;
+  padding-top:5px;
+}
+
+.main-center {
+    position: absolute;
+    top:25%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+img{
+  max-width: 100%;
+}
+input[type="email"]
+{
+    padding: 15px 30px;
+    background: rgba(255,255,255,.2);
+    color: #96de00;
+    border: none;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 48px;
+  }
+  h1::after {
+    height: 8px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  #intro {
+    padding: 0 10px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h1::after {
+    height: 6px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 28px;
+  }
+  h1::after {
+    height: 4px;
+  }
+}
